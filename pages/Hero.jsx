@@ -29,7 +29,7 @@ export function Hero() {
 
       </p>
       <div className="mt-10 flex justify-center space-x-6">
-        <ButtonLink href="/register">Get 6 months free</ButtonLink>
+        <ButtonLink href="/register">How it works</ButtonLink>
         <ButtonLink
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
