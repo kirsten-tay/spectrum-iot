@@ -38,7 +38,7 @@ export function Footer() {
           <div className="flex space-x-6">
             <Link href="#">
               <a className="group">
-                <span className="sr-only">E&apos;cole on Twitter</span>
+                <span className="sr-only">Spectrum on Twitter</span>
                 <svg
                   aria-hidden="true"
                   className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700"
@@ -49,7 +49,7 @@ export function Footer() {
             </Link>
             <Link href="#">
               <a className="group">
-                <span className="sr-only">E&apos;cole on GitHub</span>
+                <span className="sr-only">Spectrum on GitHub</span>
                 <svg
                   aria-hidden="true"
                   className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700"
@@ -60,7 +60,7 @@ export function Footer() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()}  E&apos;cole. All rights
+            Copyright &copy; {new Date().getFullYear()}  Spectrum. All rights
             reserved.
           </p>
         </div>
