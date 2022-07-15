@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../pages/Header'
-import Hero from '../pages/Hero'
+import Homepage from '../pages/Homepage'
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         
        <Header/>
-       <Hero/>
+       <Homepage/>
           
       </main>
 
