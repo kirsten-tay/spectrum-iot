@@ -1,7 +1,8 @@
 import React from 'react'
 import Hero from '../src/Hero'
+import Footer from '../src/Footer'
 
-const HomePage = () => {
+const Homepage = () => {
     return (
         <>
 
@@ -9,8 +10,9 @@ const HomePage = () => {
         <Hero/>
 
         </main>
+        <Footer/>
         </>
     )
 
 }
-export default Homepage
+export default Homepage;
