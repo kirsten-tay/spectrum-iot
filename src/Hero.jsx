@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
-import { ButtonLink } from '../src/components/Button'
-import { Container } from '../src/components/Container'
+import  ButtonLink  from '../src/components/Button'
+import  Container  from '../src/components/Container'
 import logoLaravel from '../images/logo/laravel.svg'
 import logoMirage from '../images/logo/mirage.svg'
 
