@@ -6,10 +6,10 @@ const Homepage = () => {
     return (
         <>
 
-       
+        <main>
         <Hero/>
 
-     
+        </main>
         <Footer/>
         </>
     )
