@@ -1,5 +1,5 @@
-import '../styles/globals.css'
-import '@/styles/tailwind.css'
+import 'focus-visible'
+import '../styles/tailwind.css'
 
 
 function MyApp({ Component, pageProps }) {

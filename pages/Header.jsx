@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
-import  ButtonLink  from '@/src/components/Button.jsx'
-import  Container  from '@/src/components/Container'
+import  {ButtonLink}  from '../src/components/Button.jsx'
+import  {Container } from '../src/components/Container'
 import Image from 'next/image'
 
 function MobileNavigation() {
@@ -107,8 +107,8 @@ export function Header() {
                   <span className="sr-only">Home</span>
                   {/* <Image /> */}
                  
-                  { <Logo className="h-10 w-auto" />}
-                </a>
+                  {/* <Logo className="h-10 w-auto" />*/}            
+                      </a>
               </Link>
             </li>
             <li className="ml-12 hidden md:block">
