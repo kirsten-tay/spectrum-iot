@@ -8,7 +8,7 @@ import logoMirage from '../images/logo/mirage.svg'
 export function Hero() {
   return (
     
-  <div className='.bg'>
+  <div className=''>
     <Container className="pt-20 pb-16  text-center lg:pt-32">
       <h1 className=" flex justify-center   mx-auto  max-w-6xl font-display text-7xl  font-medium tracking-tight text-slate-900 sm:text-7xl">
       Power Better Decisions with 
@@ -39,37 +39,8 @@ export function Hero() {
           <span className="ml-3">How it works</span>
         </ButtonLink>
       </div>
-      <div className="mt-36 lg:mt-44">
-        <p className="font-display .bg text-base text-slate-900">
-          Trusted by these six companies so far
-        </p>
-        
-               
-          
-         
-          <li>
-            <ul className="flex flex-col items-center space-y-8 sm:flex-row sm:space-y-0 sm:space-x-12">
-              <li className="flex">
-                <Image
-                  src={logoMirage}
-                  alt="Mirage"
-                  layout="fixed"
-                  unoptimized
-                />
-              </li>
-              <li className="flex">
-                <Image
-                  src={logoLaravel}
-                  alt="Laravel"
-                  layout="fixed"
-                  unoptimized
-                />
-              </li>
-              
-            </ul>
-            </li>
-        
-      </div>
+      
+    
     </Container>
     </div>
   )

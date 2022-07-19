@@ -18,9 +18,9 @@ export function Footer() {
               </li>
               <li>
                 
-                <Link href="#testimonials">
+                <Link href="#Ourservices">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                    Testimonials
+                    Our services
                   </a>
                 </Link>
               </li>

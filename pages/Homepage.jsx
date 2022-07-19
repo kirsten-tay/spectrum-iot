@@ -8,7 +8,7 @@ const Homepage = () => {
 
         <main>
         <Hero/>
-     
+     <Ourservices/>
         </main>
         <Footer/>
         </>

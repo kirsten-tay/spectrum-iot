@@ -1,36 +1,60 @@
 import Image from 'next/image'
 
-import  {Container } from '../src/components/Container'
+import { Container } from '../src/components/Container'
 
 
-export function Testimonials() {
-    return (
-      <section
-        id="testimonials"
-        aria-labelledby="testimonials-title"
-        className="bg-slate-50 py-20 sm:py-32 bg-testimonials "
-      >
-         
-      
-        <Container>
-          <div className="mx-auto max-w-2xl md:text-center">
-            <h2
-              id="testimonials-title"
-              className="font-display text-3xl  tracking-tight text-white sm:text-4xl"
-            >
-              Loved by businesses worldwide.
-            </h2>
-            <p className="mt-4 text-lg tracking-tight text-white">
-              Our software is so simple that people can’t help but fall in love
-              with it. Simplicity is easy when you just skip tons of
-              mission-critical features.
-            </p>
-          </div>
+export function Ourservices() {
+  return (
+    <section
+      id="testimonials"
+      aria-labelledby="testimonials-title"
+      className="bg-slate-50 py-20 sm:py-32 bg-testimonials "
+    >
 
 
-</Container>
+      <Container>
+        <div className="mx-auto max-w-2xl md:text-center">
+          <h2
+            id="testimonials-title"
+            className=" flex justify-center font-display text-3xl  tracking-tight text-white sm:text-4xl"
+          >
+            Our Services
+          </h2>
+          <p className="flex justify-center mt-4 text-lg tracking-tight text-white">
+            Our software is so simple that people can’t help but fall in love
+            with it. Simplicity is easy when you just skip tons of
+            mission-critical features.
+          </p>
 
-</section>
+          <ul className="flex mx-auto  mt-16 grid max-w-3xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none  lg:grid-cols-3">
+            <li className=" relative  rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
+              <p className="text-lg tracking-tight text-slate-900">
+                We’re accelerating digital transformation for the insurance and
+                automotive industries with our AI, IoT and workflow solutions.</p>
 
-    )
+            </li>
+
+            <li className=" relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
+              <p className="text-lg tracking-tight text-slate-900">
+                We’re accelerating digital transformation for the insurance and
+                automotive industries with our AI, IoT and workflow solutions.</p>
+
+            </li>
+
+            <li className=" relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
+              <p className="text-lg tracking-tight text-slate-900">
+                We’re accelerating digital transformation for the insurance and
+                automotive industries with our AI, IoT and workflow solutions.</p>
+
+            </li>
+
+          </ul>
+        </div>
+
+
+      </Container>
+
+    </section>
+
+  )
 }

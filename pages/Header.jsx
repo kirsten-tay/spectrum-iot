@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
-import  {ButtonLink}  from '../src/components/Button.jsx'
-import  {Container } from '../src/components/Container'
+import { ButtonLink } from '../src/components/Button.jsx'
+import { Container } from '../src/components/Container'
 import Image from 'next/image'
 
 function MobileNavigation() {
@@ -74,7 +74,7 @@ function MobileNavigation() {
                     </a>
                   </Link>
                 </li>
-                
+
               </Popover.Panel>
             </Transition.Child>
           </Transition.Root>
@@ -95,9 +95,9 @@ export function Header() {
                 <a>
                   <span className="sr-only">Home</span>
                   {/* <Image /> */}
-                 
-                  {/* <Logo className="h-10 w-auto" />*/}            
-                      </a>
+
+                  {/* <Logo className="h-10 w-auto" />*/}
+                </a>
               </Link>
             </li>
             <li className="ml-12 hidden md:block">
@@ -107,13 +107,13 @@ export function Header() {
                 </a>
               </Link>
             </li>
-            
-            
+
+
             <li className="ml-auto hidden md:block">
-              
+
             </li>
             <li className="ml-auto md:ml-8">
-              <ButtonLink  color="black" href="/register">
+              <ButtonLink color="slate" href="/register">
                 <span>
                   Get started<span className="hidden lg:inline"> today</span>
                 </span>
