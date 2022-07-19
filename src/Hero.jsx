@@ -8,22 +8,22 @@ import logoMirage from '../images/logo/mirage.svg'
 export function Hero() {
   return (
     
-  
-    <Container className="pt-20 pb-16 text-center lg:pt-32">
-      <h1 className="relative mx-auto  max-w-3xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+  <div className='.bg'>
+    <Container className="pt-20 pb-16  text-center lg:pt-32">
+      <h1 className=" flex justify-center   mx-auto  max-w-6xl font-display text-7xl  font-medium tracking-tight text-slate-900 sm:text-7xl">
       Power Better Decisions with 
 {' '}</h1>
        
-        <h1 className="mx-auto  max-w-3xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-6xl">
+        <h1 className=" flex  justify-center  mx-auto  max-w-3xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-6xl">
         Industry-leading technology
 
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+      <h5 className="mx-auto mt-6 max-w-7xl text-lg tracking-tight text-slate-700">
       We’re accelerating digital transformation for the insurance and 
       automotive industries with our AI, IoT and workflow solutions.
 
 
-      </p>
+      </h5>
       <div className="mt-10 flex justify-center space-x-6">
         <ButtonLink href="/register">How it works</ButtonLink>
         <ButtonLink
@@ -40,7 +40,7 @@ export function Hero() {
         </ButtonLink>
       </div>
       <div className="mt-36 lg:mt-44">
-        <p className="font-display text-base text-slate-900">
+        <p className="font-display .bg text-base text-slate-900">
           Trusted by these six companies so far
         </p>
         
@@ -71,5 +71,6 @@ export function Hero() {
         
       </div>
     </Container>
+    </div>
   )
 }

@@ -5,4 +5,9 @@
 
 #__next {
     min-height: 100%;
+
+  }
+
+  .bg{
+    background-color: black;
   }

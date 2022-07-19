@@ -63,7 +63,7 @@ function MobileNavigation() {
                 <li>
                   <Link href="#features">
                     <a className="block w-full" onClick={() => close()}>
-                      Features
+                      Spectrum
                     </a>
                   </Link>
                 </li>
@@ -74,18 +74,7 @@ function MobileNavigation() {
                     </a>
                   </Link>
                 </li>
-                <li>
-                  <Link href="#pricing">
-                    <a className="block w-full" onClick={() => close()}>
-                      Pricing
-                    </a>
-                  </Link>
-                </li>
-                <li className="border-t border-slate-300/40 pt-4">
-                  <Link href="/login">
-                    <a className="block w-full">Sign in</a>
-                  </Link>
-                </li>
+                
               </Popover.Panel>
             </Transition.Child>
           </Transition.Root>
@@ -114,29 +103,17 @@ export function Header() {
             <li className="ml-12 hidden md:block">
               <Link href="#features">
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  Features
+                  SPECTRUM
                 </a>
               </Link>
             </li>
-            <li className="ml-6 hidden md:block">
-              <Link href="#testimonials">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  Testimonials
-                </a>
-              </Link>
-            </li>
-            <li className="ml-6 hidden md:block">
-              <Link href="#pricing">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  Pricing
-                </a>
-              </Link>
-            </li>
+            
+            
             <li className="ml-auto hidden md:block">
               
             </li>
             <li className="ml-auto md:ml-8">
-              <ButtonLink  color="blue" href="/register">
+              <ButtonLink  color="black" href="/register">
                 <span>
                   Get started<span className="hidden lg:inline"> today</span>
                 </span>
