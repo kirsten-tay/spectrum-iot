@@ -16,11 +16,11 @@ export function Ourservices() {
         <div className="mx-auto max-w-2xl md:text-center">
           <h2
             id="testimonials-title"
-            className=" flex justify-center font-display text-3xl  tracking-tight text-white sm:text-4xl"
+            className=" flex justify-center font-display text-3xl  tracking-tight text-slate-900 sm:text-4xl"
           >
             Our Services
           </h2>
-          <p className="flex justify-center mt-4 text-lg tracking-tight text-white">
+          <p className="flex justify-center mt-4 text-lg tracking-tight text-slate-800">
             Our software is so simple that people can’t help but fall in love
             with it. Simplicity is easy when you just skip tons of
             mission-critical features.
@@ -28,6 +28,9 @@ export function Ourservices() {
 
           <ul className="flex mx-auto  mt-16 grid max-w-3xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none  lg:grid-cols-3">
             <li className=" relative  rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
+            <div className=" h-20 w-20 items-center     rounded-full bg-slate-500">
+              .
+              </div>
               <p className="text-lg tracking-tight text-slate-900">
                 We’re accelerating digital transformation for the insurance and
                 automotive industries with our AI, IoT and workflow solutions.</p>
@@ -35,6 +38,9 @@ export function Ourservices() {
             </li>
 
             <li className=" relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
+            <div className=" h-20 w-20 items-center     rounded-full bg-slate-500">
+              .
+              </div>
               <p className="text-lg tracking-tight text-slate-900">
                 We’re accelerating digital transformation for the insurance and
                 automotive industries with our AI, IoT and workflow solutions.</p>
@@ -42,6 +48,9 @@ export function Ourservices() {
             </li>
 
             <li className=" relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
+            <div className=" h-20 w-20 items-center     rounded-full bg-slate-500">
+              .
+              </div>
               <p className="text-lg tracking-tight text-slate-900">
                 We’re accelerating digital transformation for the insurance and
                 automotive industries with our AI, IoT and workflow solutions.</p>

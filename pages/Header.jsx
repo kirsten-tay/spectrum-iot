@@ -67,14 +67,7 @@ function MobileNavigation() {
                     </a>
                   </Link>
                 </li>
-                <li>
-                  <Link href="#testimonials">
-                    <a className="block w-full" onClick={() => close()}>
-                      Testimonials
-                    </a>
-                  </Link>
-                </li>
-
+                
               </Popover.Panel>
             </Transition.Child>
           </Transition.Root>
