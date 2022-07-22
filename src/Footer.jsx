@@ -8,27 +8,70 @@ export function Footer() {
       <Container>
         <div className="py-16">
           <nav className="mt-10 text-sm" aria-label="quick links">
-            <ul className="-my-1 flex justify-center space-x-6">
+
+            <ul className="flex mx-auto justify-center space-x-6 -my-1 mt-16 grid max-w-3xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none  lg:grid-cols-3">
+
               <li>
                 <Link href="#features">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                    Features
+                    About Us
                   </a>
+                  
                 </Link>
               </li>
               <li>
                 
                 <Link href="#Ourservices">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                    Our services
+                  Contact us
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="#pricing">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                    Pricing
+                  Terms and Conditions
                   </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#features">
+                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                    For partnership, reach us on +233 554 327 6481
+                  </a>
+                  
+                </Link>
+              </li>
+              <li>
+                <Link href="#features">
+                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                  Community
+                  </a>
+                  
+                </Link>
+              </li>
+              <li>
+                <Link href="#features">
+                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                  Privacy
+                  </a>
+                  
+                </Link>
+              </li>
+              <li>
+                <Link href="#features">
+                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                   team@gdrsafoundation.org
+                  </a>
+                  
+                </Link>
+              </li>
+              <li>
+                <Link href="#features">
+                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                   Partners
+                  </a>
+                  
                 </Link>
               </li>
             </ul>
