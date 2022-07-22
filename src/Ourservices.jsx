@@ -6,16 +6,16 @@ import { Container } from '../src/components/Container'
 export function Ourservices() {
   return (
     <section
-      id="testimonials"
-      aria-labelledby="testimonials-title"
-      className="bg-slate-50 py-20 sm:py-32 bg-testimonials "
+      id="Ourservices"
+      aria-labelledby="Ourservices-title"
+      className="bg-slate-50 py-20 sm:py-32  "
     >
 
 
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2
-            id="testimonials-title"
+            id="Ourservices-title"
             className=" flex justify-center font-display text-3xl  tracking-tight text-slate-900 sm:text-4xl"
           >
             Our Services
