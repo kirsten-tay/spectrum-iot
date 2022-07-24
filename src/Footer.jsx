@@ -11,6 +11,7 @@ export function Footer() {
 
             <ul className="flex mx-auto justify-center space-x-6 -my-1 mt-16 grid max-w-3xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none  lg:grid-cols-3">
 
+              
               <li>
                 <Link href="#features">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
