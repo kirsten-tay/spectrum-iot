@@ -9,6 +9,7 @@ import Image from 'next/image'
 
 function MobileNavigation() {
   return (
+
     <Popover>
       {({ open, close }) => (
         <>
@@ -62,8 +63,8 @@ function MobileNavigation() {
               >
                 <li>
                   <Link href="#features">
-                    <a className="block w-full" onClick={() => close()}>
-                      Spectrum
+                    <a className="block w-full " onClick={() => close()}>
+                      SPECTRUM
                     </a>
                   </Link>
                 </li>
@@ -79,7 +80,7 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="py-10">
+    <header className="py-10 absolute right-0 left-0">
       <Container>
         <nav className="relative z-50 text-sm">
           <ul className="flex items-center">
