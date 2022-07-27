@@ -1,6 +1,8 @@
 import Image from 'next/image'
 
 import { Container } from '../src/components/Container'
+import Logos from '../images/Vector.jpg'
+
 
 
 export function Aboutus() {
@@ -20,8 +22,9 @@ export function Aboutus() {
           >
           When you know us,You love us
           </h2>
-          <div className=" h-20 w-20 items-center   rounded-full bg-white">
-              .
+          <div className="flex w-full h-full justify-center items-center   rounded-full">
+          <Image src={Logos} className="h-40 w-full"
+      />
               </div>
           <p className="flex justify-center mt-4 text-lg tracking-tight text-white">
             "From residential homes to commercial businesses, a wide range of customers

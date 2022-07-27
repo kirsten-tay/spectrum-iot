@@ -5,6 +5,8 @@ import clsx from 'clsx'
 
 import { ButtonLink } from '../src/components/Button.jsx'
 import { Container } from '../src/components/Container'
+import Logo from '../images/Vector.jpg'
+
 import Image from 'next/image'
 
 function MobileNavigation() {
@@ -88,7 +90,8 @@ export function Header() {
               <Link href="#">
                 <a>
                   <span className="sr-only">Home</span>
-                  {/* <Image /> */}
+                  <Image src={Logo} className="h-auto w-full"
+                   />
 
                   {/* <Logo className="h-10 w-auto" />*/}
                 </a>
@@ -96,7 +99,7 @@ export function Header() {
             </li>
             <li className="ml-12 hidden md:block">
               <Link href="#">
-                <a className="rounded-lg py-1 px-2 text-white hover:bg-slate-100 hover:text-slate-900">
+                <a className="rounded-lg py-1 text-white hover:bg-slate-100 hover:text-slate-900">
                   SPECTRUM
                 </a>
               </Link>
