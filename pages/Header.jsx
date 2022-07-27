@@ -62,7 +62,7 @@ function MobileNavigation() {
                 className="absolute inset-x-0 top-full mt-4 origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
               >
                 <li>
-                  <Link href="#features">
+                  <Link href="#">
                     <a className="block w-full " onClick={() => close()}>
                       SPECTRUM
                     </a>
@@ -95,8 +95,8 @@ export function Header() {
               </Link>
             </li>
             <li className="ml-12 hidden md:block">
-              <Link href="#features">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+              <Link href="#">
+                <a className="rounded-lg py-1 px-2 text-white hover:bg-slate-100 hover:text-slate-900">
                   SPECTRUM
                 </a>
               </Link>
@@ -107,7 +107,7 @@ export function Header() {
 
             </li>
             <li className="ml-auto md:ml-8">
-              <ButtonLink color="slate" href="/register">
+              <ButtonLink color="blue" href="#">
                 <span>
                   Get started<span className="hidden lg:inline"> today</span>
                 </span>

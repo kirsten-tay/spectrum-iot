@@ -14,15 +14,15 @@ export function Hero() {
       <Image src={BG} className="h-auto w-full"
       />
       <Container className="pt-20 pb-16 bg-transparent absolute inset-0 flex flex-col items-center justify-center  text-center lg:pt-32 ">
-        <h1 className=" flex justify-center   mx-auto  max-w-6xl font-display text-7xl  font-medium tracking-tight text-slate-900 sm:text-7xl">
+        <h1 className=" flex justify-center   mx-auto  max-w-6xl font-display text-7xl  font-medium tracking-tight text-white sm:text-7xl">
           Power Better Decisions with
           {' '}</h1>
 
-        <h1 className=" flex  justify-center  mx-auto  max-w-3xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-6xl">
+        <h1 className=" flex  justify-center  mx-auto  max-w-3xl font-display text-5xl font-medium tracking-tight text-white sm:text-6xl">
           Industry-leading technology
 
         </h1>
-        <h5 className="mx-auto mt-6 max-w-7xl text-lg tracking-tight text-slate-700">
+        <h5 className="mx-auto mt-6 max-w-7xl text-lg tracking-tight text-white">
           We’re accelerating digital transformation for the insurance and
           automotive industries with our AI, IoT and workflow solutions.
 

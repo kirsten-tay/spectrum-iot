@@ -1,6 +1,8 @@
 import Image from 'next/image'
 
 import { Container } from '../src/components/Container'
+import logo from '../images/Vector.png'
+
 
 
 export function Ourservices() {
@@ -29,7 +31,8 @@ export function Ourservices() {
           <ul className="flex mx-auto  mt-16 grid max-w-3xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none  lg:grid-cols-3">
             <li className=" relative  rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
             <div className=" h-20 w-20 items-center   rounded-full bg-slate-500">
-              .
+            <Image src={logo} className="h-auto w-full"
+      />
               </div>
               <p className="text-lg tracking-tight py-6  text-slate-900">
                 We’re accelerating digital transformation for the insurance and
@@ -39,7 +42,8 @@ export function Ourservices() {
 
             <li className=" relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
             <div className=" h-20 w-20 items-center  rounded-full bg-slate-500">
-              .
+            <Image src={logo} className="h-auto w-full"
+      />
               </div>
               <p className="text-lg tracking-tight py-6 text-slate-900">
                 We’re accelerating digital transformation for the insurance and
@@ -49,7 +53,8 @@ export function Ourservices() {
 
             <li className=" relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
             <div className=" h-20 w-20 items-center rounded-full bg-slate-500">
-              .
+            <Image src={logo} className="h-auto w-full"
+      />
               </div>
               <p className="text-lg tracking-tight py-6 text-slate-900">
                 We’re accelerating digital transformation for the insurance and

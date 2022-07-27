@@ -26,7 +26,7 @@ const variantStyles = {
 
 export function Button({
   variant = 'solid',
-  color = 'slate',
+  color = 'blue',
   className,
   ...props
 }) {
@@ -44,7 +44,7 @@ export function Button({
 
 export function ButtonLink({
   variant = 'solid',
-  color = 'slate',
+  color = 'blue',
   href,
   className,
   ...props
