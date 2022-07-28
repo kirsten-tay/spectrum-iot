@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
-import { ButtonLink } from '../src/components/Button.jsx'
-import { Container } from '../src/components/Container'
+import { ButtonLink } from './components/Button.jsx'
+import { Container } from './components/Container'
 import Logo from '../images/Vector.jpg'
 
 
