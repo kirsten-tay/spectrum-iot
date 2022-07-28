@@ -90,7 +90,9 @@ export function Header() {
               <Link href="#">
                 <a>
                   <span className="sr-only">Home</span>
-                  <Image src={Logo} className="h-auto w-full"
+                  <Image src={Logo} alt="Laravel"
+                  layout="fixed"
+                  unoptimized className="h-auto w-full"
                    />
 
                   {/* <Logo className="h-10 w-auto" />*/}

@@ -23,7 +23,9 @@ export function Aboutus() {
           When you know us,You love us
           </h2>
           <div className="flex w-full h-full justify-center items-center   rounded-full">
-          <Image src={Logos} className="h-40 w-full"
+          <Image src={Logos} alt="Laravel"
+                  layout="fixed"
+                  unoptimized className="h-40 w-full"
       />
               </div>
           <p className="flex justify-center mt-4 text-lg tracking-tight text-white">

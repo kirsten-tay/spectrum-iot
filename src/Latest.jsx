@@ -21,7 +21,7 @@ export function Latest() {
           </h2>
 
         </div>
-        <ul className="flex mx-auto bg-red-500 mt-16 grid grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none  lg:grid-cols-3">
+        <ul className="flex mx-auto bg-slate-100 mt-16 grid grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none  lg:grid-cols-3">
         <div className=" relative    p-6 shadow-slate-900/10">
          
               <span className="text-lg  py-6  text-slate-900">

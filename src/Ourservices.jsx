@@ -31,7 +31,9 @@ export function Ourservices() {
           <ul className="flex mx-auto  mt-16 grid max-w-3xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none  lg:grid-cols-3">
             <li className=" relative  rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
             <div className="flex w-full justify-center items-center   rounded-full">
-            <Image src={logo} className="h-auto w-full"
+            <Image src={logo} alt="Laravel"
+                  layout="fixed"
+                  unoptimized className="h-auto w-full"
       />
               </div>
               <p className="text-lg tracking-tight py-6  text-slate-900">
@@ -42,7 +44,9 @@ export function Ourservices() {
 
             <li className=" relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
             <div className="flex w-full justify-center items-center   rounded-full">
-            <Image src={logo} className="h-auto w-full"
+            <Image src={logo} alt="Laravel"
+                  layout="fixed"
+                  unoptimized className="h-auto w-full"
       />
               </div>
               <p className="text-lg tracking-tight py-6 text-slate-900">
@@ -53,7 +57,9 @@ export function Ourservices() {
 
             <li className=" relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
             <div className="flex w-full justify-center items-center   rounded-full">
-            <Image src={logo} className="h-auto w-full"
+            <Image src={logo} alt="Laravel"
+                  layout="fixed"
+                  unoptimized className="h-auto w-full"
       />
               </div>
               <p className="text-lg tracking-tight py-6 text-slate-900">

@@ -11,7 +11,9 @@ export function Hero() {
   return (
 
     <div className='relative'>
-      <Image src={BG} className="h-auto w-full"
+      <Image src={BG} alt="Laravel"
+                  layout="fixed"
+                  unoptimized className="h-auto w-full"
       />
       <Container className="pt-20 pb-16 bg-transparent absolute inset-0 flex flex-col items-center justify-center  text-center lg:pt-32 ">
         <h1 className=" flex justify-center   mx-auto  max-w-6xl font-display text-7xl  font-medium tracking-tight text-white sm:text-7xl">
