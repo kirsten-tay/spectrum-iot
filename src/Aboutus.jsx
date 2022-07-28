@@ -32,9 +32,12 @@ export function Aboutus() {
             phone and tv services.However,organisations can request more secure connections through
             fibre technology for Ethernet access and other added perks"
           </p>
-          <p className='flex justify-center mt-4 text-lg tracking-tight text-white'>
+          <p className='flex justify-right py-3 mt-4 text-lg tracking-tight text-white'>
               ~John K.A Kennedy
           </p>
+          
+          <p className='flex justify-center py-5 mt-4 text-lg tracking-tight text-white'>
+          Meet Our Customers          </p>
           
         </div>
 

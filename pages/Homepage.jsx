@@ -4,6 +4,7 @@ import {Footer} from '../src/Footer'
 import {Ourservices} from '../src/Ourservices'
 import { Aboutus } from '../src/Aboutus'
 import {Latest} from '../src/Latest'
+import { Onboard } from '../src/Onboard'
 const Homepage = () => {
     return (
         <>
@@ -13,6 +14,7 @@ const Homepage = () => {
      <Ourservices/>
      <Aboutus/>
      <Latest/>
+     <Onboard/>
         </main>
         <Footer/>
         </>
