@@ -3,6 +3,7 @@ import{ Hero} from '../src/Hero'
 import {Footer} from '../src/Footer'
 import {Ourservices} from '../src/Ourservices'
 import { Aboutus } from '../src/Aboutus'
+import {Latest} from '../src/Latest'
 const Homepage = () => {
     return (
         <>
@@ -11,6 +12,7 @@ const Homepage = () => {
         <Hero/>
      <Ourservices/>
      <Aboutus/>
+     <Latest/>
         </main>
         <Footer/>
         </>
