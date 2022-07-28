@@ -27,7 +27,8 @@ export function Latest() {
               <span className="text-lg  py-6  text-slate-900">
                 We’re accelerating digital transformation for the insurance and
                 automotive industries with our AI, IoT and workflow solutions.</span>
-                <p className="py-5">Learn More </p>
+                <p className="py-5">Learn More <span aria-hidden="true" className="text-blue-800">&rarr;</span>
+                </p>
 
         </div>
 
@@ -36,7 +37,8 @@ export function Latest() {
               <span className="text-lg  py-6  text-slate-900">
                 We’re accelerating digital transformation for the insurance and
                 automotive industries with our AI, IoT and workflow solutions.</span>
-                <p className="py-5">Learn More </p>
+                <p className="py-5">Learn More <span aria-hidden="true" className="text-blue-800">&rarr;</span>
+                 </p>
 
         </div>
 
@@ -45,7 +47,8 @@ export function Latest() {
               <span className="text-lg  py-6  text-slate-900">
                 We’re accelerating digital transformation for the insurance and
                 automotive industries with our AI, IoT and workflow solutions.</span>
-                <p className="py-5">Learn More </p>
+                <p className="py-5">Learn More  <span aria-hidden="true" className="text-blue-800">&rarr;</span>
+                 </p>
 
         </div>
 

@@ -37,7 +37,7 @@ export function Aboutus() {
           </p>
           
           <p className='flex justify-center py-5 mt-4 text-lg tracking-tight text-white'>
-          Meet Our Customers          </p>
+          Meet Our Customers  <span aria-hidden="true" className="text-blue-800">&rarr;</span>        </p>
           
         </div>
 
