@@ -1,4 +1,6 @@
 import { Fragment } from 'react'
+import Image from 'next/image'
+
 import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
@@ -7,7 +9,6 @@ import { ButtonLink } from '../src/components/Button.jsx'
 import { Container } from '../src/components/Container'
 import Logo from '../images/Vector.jpg'
 
-import Image from 'next/image'
 
 function MobileNavigation() {
   return (
