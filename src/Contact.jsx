@@ -9,7 +9,7 @@ export function Contact() {
     <section
       id="Ourservices"
       aria-labelledby="Ourservices-title"
-      className="bg-slate-50 py-20 sm:py-32  "
+      className="bg-slate-50 py-20 sm:py-20  "
     >
 
 
@@ -17,8 +17,7 @@ export function Contact() {
         <div className="mx-auto max-w-2xl md:text-center">
          <h6> Get in touch</h6>
           <h2 className=" flex justify-center font-display text-3xl  tracking-tight text-slate-900 sm:text-4xl" >
-            Our Services
-          </h2>
+          Contact Us          </h2>
 
          </div>
 

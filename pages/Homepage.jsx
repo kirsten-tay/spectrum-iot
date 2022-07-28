@@ -5,6 +5,7 @@ import {Ourservices} from '../src/Ourservices'
 import { Aboutus } from '../src/Aboutus'
 import {Latest} from '../src/Latest'
 import { Onboard } from '../src/Onboard'
+import { Contact } from '../src/Contact'
 const Homepage = () => {
     return (
         <>
@@ -15,6 +16,7 @@ const Homepage = () => {
      <Aboutus/>
      <Latest/>
      <Onboard/>
+     <Contact/>
         </main>
         <Footer/>
         </>
