@@ -13,8 +13,8 @@ export default function Home() {
 
       {/* <div className="bg-red-400 h-11 w-11 shadow shadow-pink-300"></div> */}
 
-      <Header/>
-       <Homepage/>
+      <Header />
+      <Homepage />
     </>
   )
 }
