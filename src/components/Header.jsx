@@ -3,9 +3,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
-import { ButtonLink } from '../src/components/Button.jsx'
-import Logo from '../images/Vector.jpg'
-import { Container } from '../src/components/Container.jsx'
+import { ButtonLink } from './Button.jsx'
+import Logo from '../../images/Vector.jpg'
+import { Container } from './Container.jsx'
 
 
 // function MobileNavigation() {
