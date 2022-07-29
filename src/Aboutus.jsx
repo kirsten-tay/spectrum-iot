@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import { Container } from '../src/components/Container'
-import Logos from '../images/Vector.jpg'
+import Logos from '../images/Vector.png'
 
 
 
@@ -15,32 +15,32 @@ export function Aboutus() {
 
 
       <Container>
-        <div className="mx-auto max-w-2xl md:text-center">
+        <div className="mx-auto flex flex-col items-center max-w-2xl md:text-center">
           <h2
             id="testimonials-title"
             className=" flex justify-center font-display text-4xl  tracking-tight text-white sm:text-4xl"
           >
-          When you know us,You love us
+            When you know us,You love us
           </h2>
-          <div className="flex w-full h-full justify-center items-center   rounded-full">
-          <Image src={Logos} alt="Laravel"
-                  layout="fixed"
-                  unoptimized className="h-40 w-full"
-      />
-              </div>
+          <div className="flex w-full h-full m-10 justify-center items-center   rounded-full">
+            <Image src={Logos} alt="Laravel"
+              layout="fixed"
+              className="h-20 w-full"
+            />
+          </div>
           <p className="flex justify-center mt-4 text-lg tracking-tight text-white">
             "From residential homes to commercial businesses, a wide range of customers
             depend on Spectrum's connectivity solutions.The company delivers mobile,internet,
             phone and tv services.However,organisations can request more secure connections through
             fibre technology for Ethernet access and other added perks"
           </p>
-          <p className='flex justify-right py-3 mt-4 text-lg tracking-tight text-white'>
-              ~John K.A Kennedy
+          <p className='flex text-center py-3 mt-4 text-lg tracking-tight text-white'>
+            ~John K.A Kennedy
           </p>
-          
+
           <p className='flex justify-center py-5 mt-4 text-lg tracking-tight text-white'>
-          Meet Our Customers  <span aria-hidden="true" className="text-blue-800">&rarr;</span>        </p>
-          
+            Meet Our Customers  <span aria-hidden="true" className="text-blue-800">&rarr;</span>        </p>
+
         </div>
 
 

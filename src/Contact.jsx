@@ -16,7 +16,7 @@ export function Contact() {
 
 
       <Container>
-        <div className="mx-auto max-w-2xl md:text-center">
+        <div className="mx-auto max-w-7xl md:text-center">
          <h6> Get in touch</h6>
           <h2 className=" flex justify-center font-display text-3xl  tracking-tight text-slate-900 sm:text-4xl" >
           Contact Us          </h2>
@@ -26,7 +26,7 @@ export function Contact() {
                     <form action="#" method="" className="space-y-4">
                     
         
-                        <div className="flex flex-col  sm:flex-row sm:space-y-0 sm:space-x-6">
+                        <div className="grid grid-cols-2 sm:flex-row sm:space-y-0 sm:space-x-6">
                             <Input
                                 placeholder="First Name"
                                 id="First Name"
@@ -58,7 +58,7 @@ export function Contact() {
                             placeholder="Message"
                             id="Message"
                             name="Message"
-                            type="text"
+                            type="textarea"
                             autoComplete="Message"
                             required
                         />

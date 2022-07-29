@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Header } from '../src/Header.jsx'
+import { Header } from './Header.jsx'
 import Homepage from '../pages/Homepage.jsx'
 
 export default function Home() {

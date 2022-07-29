@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
-import { ButtonLink } from './components/Button.jsx'
-import { Container } from './components/Container'
+import { ButtonLink } from '../src/components/Button.jsx'
+import { Container } from '../src/components/Container'
 import Logo from '../images/Vector.jpg'
 
 
@@ -71,7 +71,7 @@ function MobileNavigation() {
                     </a>
                   </Link>
                 </li>
-                
+
               </Popover.Panel>
             </Transition.Child>
           </Transition.Root>
@@ -83,48 +83,25 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="py-10 absolute right-0 left-0">
-      <Container>
-        <nav className="relative z-50 text-sm">
-          <ul className="flex items-center">
-            <li>
-              <Link href="#">
-                <a>
-                  <span className="sr-only">Home</span>
-                  <Image src={Logo} alt="Laravel"
-                  layout="fixed"
-                  unoptimized className="h-auto w-full"
-                   />
-
-                  {/* <Logo className="h-10 w-auto" />*/}
-                </a>
-              </Link>
-            </li>
-            <li className="ml-12 hidden md:block">
-              <Link href="#">
-                <a className="rounded-lg py-1 text-white hover:bg-slate-100 hover:text-slate-900">
-                  SPECTRUM
-                </a>
-              </Link>
-            </li>
-
-
-            <li className="ml-auto hidden md:block">
-
-            </li>
-            <li className="ml-auto md:ml-8">
-              <ButtonLink color="blue" href="#">
-                <span>
-                  Get started<span className="hidden lg:inline"> today</span>
-                </span>
-              </ButtonLink>
-            </li>
-            <li className="ml-5 -mr-1 md:hidden">
-              <MobileNavigation />
-            </li>
-          </ul>
-        </nav>
-      </Container>
+    <header className="absolute flex-row w-full py-4 px-4 bg-slate-400/30 z-10 right-0 left-0">
+      <div className="max-w-7xl mx-auto flex flex-row items-center justify-between">
+        <div className="flex space-x-3 items-center " >
+          <Image src={Logo} alt="Laravel"
+            layout="fixed"
+            unoptimized className="h-auto w-full"
+          />
+          <a className="rounded-lg py-1 text-white text-xl">
+            SPECTRUM
+          </a>
+        </div>
+        <div>
+          <ButtonLink color="blue" href="#">
+            <span>
+              Get started<span className="hidden lg:inline"> today</span>
+            </span>
+          </ButtonLink>
+        </div>
+      </div>
     </header>
   )
 }
